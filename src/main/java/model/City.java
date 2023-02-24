@@ -1,20 +1,21 @@
 package model;
 
 public class City {
-    private long city_id;
+    private long cityId;
     private String cityName;
 
-    public City(long city_id, String cyti_name) {
-        this.city_id = city_id;
-        this.cityName = cyti_name;
+    public City(long cityId, String cityName) {
+        this.cityId = cityId;
+        this.cityName = cityName;
     }
 
-    public long getCity_id() {
-        return city_id;
+
+    public long getCityId() {
+        return cityId;
     }
 
-    public void setCity_id(long city_id) {
-        this.city_id = city_id;
+    public void setCityId(long cityId) {
+        this.cityId = cityId;
     }
 
     public String getCityName() {
@@ -27,6 +28,6 @@ public class City {
 
     @Override
     public String toString() {
-        return " город " + cityName + " с id = "+ city_id;
+        return " город " + cityName + " с id = "+ cityId;
     }
 }

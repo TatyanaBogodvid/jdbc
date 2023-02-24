@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8637694a-8468-4648-9ea3-4d6bf7e5ebd7" name="Changes" comment="ДЗ выполнено">
+    <list default="true" id="8637694a-8468-4648-9ea3-4d6bf7e5ebd7" name="Changes" comment="Замечания учтены">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/City.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Employee.java" afterDir="false" />
     </list>
@@ -24,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,6 +74,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +90,7 @@
       <workItem from="1676387099816" duration="8318000" />
       <workItem from="1676620336209" duration="599000" />
       <workItem from="1676896059897" duration="385000" />
-      <workItem from="1677053434875" duration="13441000" />
+      <workItem from="1677053434875" duration="16639000" />
     </task>
     <task id="LOCAL-00001" summary="Начальный коммит">
       <created>1676386600525</created>
@@ -102,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677080907942</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Замечания учтены">
+      <created>1677231646214</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677231646214</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Начальный коммит" />
     <MESSAGE value="ДЗ выполнено" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ выполнено" />
+    <MESSAGE value="Замечания учтены" />
+    <option name="LAST_COMMIT_MESSAGE" value="Замечания учтены" />
   </component>
 </project>

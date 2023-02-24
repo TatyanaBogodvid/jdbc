@@ -26,8 +26,8 @@ public class EmployeeDaoImpl implements EmployeeDao {
     @Override
     public Optional<Employee> add(Employee employee) {
         Long cityId = null;
-        if (employee.getCity() != null && cityDao.findById(employee.getCity().getCity_id()).isPresent()){
-            cityId = employee.getCity().getCity_id();
+        if (employee.getCity() != null && cityDao.findById(employee.getCity().getCityId()).isPresent()){
+            cityId = employee.getCity().getCityId();
 
         }
         try(Connection connection = ConnectionManager.getConnection();
@@ -84,8 +84,8 @@ public class EmployeeDaoImpl implements EmployeeDao {
     @Override
     public Optional<Employee> update(Employee employee) {
         Long cityId = null;
-        if (employee.getCity() != null && cityDao.findById(employee.getCity().getCity_id()).isPresent()){
-            cityId = employee.getCity().getCity_id();
+        if (employee.getCity() != null && cityDao.findById(employee.getCity().getCityId()).isPresent()){
+            cityId = employee.getCity().getCityId();
 
         }
         try(Connection connection = ConnectionManager.getConnection();
