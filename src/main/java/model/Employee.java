@@ -1,7 +1,7 @@
 package model;
 
 public class Employee {
-    long id;
+    private long id;
     private String firstName;
     private String lastName;
     private String gender;
