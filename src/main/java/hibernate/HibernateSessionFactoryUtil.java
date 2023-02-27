@@ -1,7 +1,7 @@
 package hibernate;
 
-import model.City;
-import model.Employee;
+import entity.City;
+import entity.Employee;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
